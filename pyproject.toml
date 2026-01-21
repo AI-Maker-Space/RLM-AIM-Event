@@ -1,0 +1,16 @@
+[project]
+name = "rlm-aim-event"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dspy>=3.1.2",
+    "jupyter>=1.1.1",
+    "rlm",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+]
+
+[tool.uv.sources]
+rlm = { path = "./rlm", editable = true }
